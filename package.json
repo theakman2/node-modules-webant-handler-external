@@ -1,0 +1,23 @@
+{
+    "name":"webant-handler-external",
+    "author":"A Kazim",
+    "description":"A handler for the webant module for requires to externally hosted javascript and CSS files.",
+    "keywords":[
+        "ant",
+        "external",
+        "webant"
+    ],
+    "version":"0.3.0",
+    "devDependencies":{
+        "test":"0.6.x"
+    },
+    "repositories":{
+        "type":"git",
+        "url":"git://github.com/theakman2/node-modules-webant-handler-external.git"
+    },
+    "main":"./lib/index.js",
+    "scripts":{
+        "test":"node ./test/index.js"
+    },
+    "license":"MIT"
+}
