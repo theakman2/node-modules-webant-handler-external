@@ -41,14 +41,12 @@ All external files `require`d this way can be accessed in the handlebars file at
 
 ```html
 <!DOCTYPE html>
+<html>
     <head>
         {{#each externalCss}}<link rel="stylesheet" type="text/css" href="{{{this}}}" />{{/each}}
         {{#each externalJs}}<script type="text/javascript" src="{{{this}}}"></script>{{/each}}
     </head>
-
-    <body>
-    
-    </body>
+    <body></body>
 </html>
 ```
 
